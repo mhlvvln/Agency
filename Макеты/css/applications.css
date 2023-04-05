@@ -1,0 +1,29 @@
+.scroll-container {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+
+.applications-content{
+	padding-left: 20%;
+	padding-right: 20%;
+	min-width: 795px;
+	padding-top: 90px;
+}
+
+.card{
+	margin-top: 20px;
+}
+
+
+.table{
+	border: none;
+}
+
+.big-checkbox {width: 30px; height: 30px;}
+
+.change-input{
+	margin-top: 15px;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/auth.css">
+	<link rel="stylesheet" type="text/css" href="css/applications.css">
+	<!-- <script type="text/javascript" src="js/auth.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Мои вакансии</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="header">
+			<nav class="navbar navbar-light fixed-top">
+  				<div class="container-fluid text-white">
+    				<a class="navbar-brand circle">Л</a>
+    				<div class="d-flex">
+      					<input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+      					<button class="btn btn-outline-light" type="submit">Поиск</button>
+    				</div>
+    				<div class="d-flex col-5">
+						<span class="navbar-text navbar-item text-white">
+	    					<a href="profile_org.html" class="text-light text-decoration-none">Самокат</a>
+	  					</span>
+	  					<span class="navbar-text navbar-item navbar-item-end text-white">
+	    					<a href="applicants.html" class="text-light text-decoration-none">Предложения</a>
+  						</span>
+  						<span class="navbar-text navbar-item navbar-item-end text-white">
+	    					<a href="#" class="text-light text-decoration-none">Выход</a>
+  						</span>
+  					</div>
+  				</div>
+			</nav>
+		</div>
+		<div class="applications-content container">
+			<div class="jumbotron jumbotron-fluid">
+			    <div class="container">
+			    	<h1 class="display-4">Мои вакансии</h1>
+			    	<p class="lead">
+					    <div class="card">
+					    	<div class="card-body row align-items-center">
+					    		<div class="col-9">
+						        	<div class="card-title fs-2">Доставщик еды</div>
+						        	<small id="emailHelp" class="form-text text-muted fs-6">ООО «Самокат»</small>
+						        	<p class="card-text">
+						        		<table class="table table-sm">
+										  <tbody>
+										    <tr class="fs-5 " >
+										      <td>Город:</td>
+										      <td class="fs-5">Ростов-на-Дону</td>
+										      <td class="fs-5">2/2</td>
+										    </tr>
+										    <tr>
+										      <td class="fs-5">Требуемый опыт:</td>
+										      <td class="fs-5">Не требуется</td>
+										      <td></td>
+										    </tr>
+										    <tr class="fs-5 ">
+										        <td  class="border-0" colspan="1"></td>
+										        <td class="fs-4 border-0">70 000&#8381;</td>
+										        <td class="border-0"> 
+										      		<svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor" class="bi bi-question-circle" viewBox="0 0 16 16">
+														<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+														<path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286zm1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94z"/>
+													</svg>
+												</td>
+										    </tr>
+										  </tbody>
+										</table>
+						        	</p>
+						        </div>
+						        <div class="col-3 align-items-center">
+						        	<img src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_18723899d82%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_18723899d82%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.4261360168457%22%20y%3D%2296.10909080505371%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" >
+						        </div>
+					    	</div>
+						    <div class="card-footer d-flex justify-content-between align-items-center">
+						        <small class="text-muted">Вторник, 13:52</small>
+						        <div class="btn-group" role="group">
+							    	<button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							      	Действия
+							   		</button>
+							    	<ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+							      		<li><a class="dropdown-item change" data-suggestion-id="1" data-bs-toggle="modal" data-bs-target="#changeModal">Изменить</a></li>
+							      		<li><a class="dropdown-item remove" data-bs-toggle="modal" data-bs-target="#removeModal" data-suggestion-id="1" >Удалить</a></li>
+							    	</ul>
+							  	</div>
+						    </div>
+					    </div>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Модальное окно удаления вакансии -->
+	<div class="modal fade" id="removeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title" id="exampleModalLabel">Удалить</h5>
+		        	<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+		               	<span aria-hidden="true">&times;</span>
+		            </button>
+		      	</div>
+		    	<div class="modal-body">
+		      	 	Удалить вакансию: <span>Доставщик еды</span>?
+		    	</div>
+		    	<div class="modal-footer">
+		       		<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Отмена</button>
+		       		<button type="button" class="btn btn-danger removeEl" id="removeEl">Удалить</button>
+		    	</div>
+	    	</div>
+	  	</div>
+	</div>
+
+	<!-- Модальное окно изменения вакансии -->
+	<div class="modal fade" id="changeModal" tabindex="-1" aria-labelledby="changeModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+	    	<div class="modal-content">
+		      	<div class="modal-header">
+		        	<h5 class="modal-title" id="changeModalLabel">Изменить</h5>
+		        	<button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+		               	<span aria-hidden="true">&times;</span>
+		            </button>
+		      	</div>
+		    	<div class="modal-body">
+		      	 	<div class="change-input">
+		    			<input type="text" list="positions" class="form-control is-invalid" id="inputPosition" oninput="inputPosition();" placeholder="Должность">
+  						<datalist id="positions">
+							<!--СПИСОК ДОЛЖНОСТЕЙ-->
+						</datalist>
+					</div>
+					<div class="change-input">
+						<div class="form-group">
+  							<input type="text" list="charts" class="form-control is-invalid" id="inputCharts" placeholder="График" oninput="inputCharts();">
+  							<datalist id="charts">
+								<!--СПИСОК РЕЖИМОВ РАБОТЫ-->
+							</datalist>
+	    				</div>
+					</div>
+					<div class="change-input">
+						<div class="form-group">
+	    					<!-- НИЖНЯЯ ГРАНИЦА ЗАРПЛАТЫ -->
+	      					<input type="text" class="form-control is-invalid" id="inputMinSalary" oninput="minSalary();" placeholder="Нижняя граница зарплаты">
+	    				</div>
+					</div>
+					<div class="change-input">
+						<div class="form-group ">
+	      					<!-- НИЖНЯЯ ГРАНИЦА ЗАРПЛАТЫ -->
+	      					<input type="text" class="form-control is-invalid" id="inputMaxSalary" oninput="maxSalary();" placeholder="Верхняя граница зарплаты">
+	    				</div>
+					</div>
+					<div class="change-input">
+						<input type="text" class="form-control is-invalid" id="inputExperience" oninput="inputExperience();" placeholder="Желаемый опыт работы">
+					</div>
+					<div class="change-input">
+						<label for="exampleFormControlTextarea1">Описание к вакансии</label>
+    							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					</div>
+		    	</div>
+		    	<div class="modal-footer">
+		       		<button type="button" class="btn btn-secondary changeEl" data-bs-dismiss="modal">Отмена</button>
+		       		<button type="button" class="btn btn-success removeEl" id="changeEl">Изменить</button>
+		    	</div>
+	    	</div>
+	  	</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script>
+		/*$('.change').click(function () {
+		   alert(this.id);
+		});*/
+
+		$('#removeModal').on('shown.bs.modal', function (event) {
+	  		var v_id = event.relatedTarget.dataset.suggestionId;
+	  		$('#removeEl').off('click').on('click', function(){
+	    		alert("Удаляем: " + v_id);
+	    		return;
+	  		});
+		});
+
+		$('#removeModal').on('hidden.bs.modal', function (event) {
+  			$('#removeEl').off('click');
+		});
+
+		$('#changeModal').on('shown.bs.modal', function (event) {
+	  		var v_id = event.relatedTarget.dataset.suggestionId;
+	  		$('#changeEl').off('click').on('click', function(){
+	    		alert("Меняем: " + v_id);
+	    		return;
+	  		});
+		});
+
+		$('#changeModal').on('hidden.bs.modal', function (event) {
+  			$('#changeEl').off('click');
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/auth.css">
+	<link rel="stylesheet" type="text/css" href="css/profile_user.css">
+	<!-- <script type="text/javascript" src="js/auth.js"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<title>Профиль</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="header">
+			<nav class="navbar navbar-light fixed-top">
+  				<div class="container-fluid text-white">
+    				<a class="navbar-brand circle">Л</a>
+    				<div class="d-flex">
+      					<input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+      					<button class="btn btn-outline-light" type="submit">Поиск</button>
+    				</div>
+    				<div class="d-flex col-5">
+						<span class="navbar-text navbar-item text-white">
+	    					<a href="profile_org.html" class="text-light text-decoration-none">Касым</a>
+	  					</span>
+	  					<span class="navbar-text navbar-item navbar-item-end text-white">
+	    					<a href="applicants.html" class="text-light text-decoration-none">Предложения</a>
+  						</span>
+  						<span class="navbar-text navbar-item navbar-item-end text-white">
+	    					<a href="#" class="text-light text-decoration-none">Выход</a>
+  						</span>
+  					</div>
+  				</div>
+			</nav>
+		</div>
+		<div class="profile-content">
+			<div class="row">
+				<div class="col-sm-4">
+				    <div class="card border-success mb-3" style="width: 18rem;">
+					    <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_187196f9269%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_187196f9269%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.4261360168457%22%20y%3D%2296.10909080505371%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+						<div class="card-body">
+						  	<div class="card-title text-success">
+						  		<button type="button" class="btn btn-profile btn-success btn-lg btn-block">Кнопка</button>
+						  	</div>
+						    <button type="button" class="btn btn-danger btn-profile btn-lg btn-block">Пожаловаться</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-8">
+				    <div class="jumbotron jumbotron-fluid">
+					    <div class="container">
+					    	<h1 class="display-4">ИП «Жамалетдинов»</h1>
+					    	<p class="lead">
+					    		<table class="table table-sm">
+								  	<tbody>
+									    <tr>
+										    <th class="text-success fs-4" colspan="2" scope="row">Название:</th>
+										    <td colspan="2" style="font-size: 20px;" class="text-primary table_info-about">ИП «Жамалетдинов»</td>
+									    </tr>
+									    <tr>
+									        <th scope="row" class="text-primary fs-4" colspan="2">Тип предприятия:</th>
+									        <td colspan="2" style="font-size: 20px;" class="text-success table_info-about">Индивиудальное предприятие</td>
+									    </tr>
+									    <tr>
+									        <th scope="row" class="text-success fs-4" colspan="2">Адрес:</th>
+									        <td colspan="2" style="font-size: 20px;" class="text-primary table_info-about">г. Донецк, Калининский рынок, ряд 6, т. 197</td>
+									    </tr>
+									    <tr>
+									        <th scope="row" class="text-primary fs-4" colspan="2">Почта:</th>
+									        <td colspan="2" style="font-size: 20px;" class="text-success table_info-about">jamaled@mail.uz</td>
+									    </tr>
+								    </tbody>
+								</table>
+					    	</p>
+					    </div>
+					</div>
+				</div>
+				<div class="jumbotron jumbotron-fluid">
+	  				<div class="container">
+	    				<h1 class="display-5">Описание</h1>
+	    				<p class="lead">Компания Аврора-ИТ обладает уникальным опытом по внедрению передовых технологий класса LIMS (Лабораторно-информационных систем), направленных на оптимизацию управления процессами контроля качества продукции и повышения эффективности работы на российских предприятиях любых отраслей промышленности, в испытательных центрах и научно-исследовательских лабораториях.
+						Компания аккредитована в Министерстве цифрового развития.
+						Мы открываем вакансию Программист SQL! В обязанности входит: разработка функционала собственного программного продукта LIMS; написание SQL запросов различной сложности (основная часть работы); тестирование и отладка/корректировка ПО; сопровождение внедрения ПО;</p>
+	  				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>

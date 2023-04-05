@@ -1,0 +1,19 @@
+.profile-content{
+	padding-left: 20%;
+	padding-right: 15%;
+	min-width: 795px;
+	padding-top: 90px;
+}
+
+.btn-profile{
+	width: 100%;
+}
+
+
+
+@media(max-width: 1360px){
+	.profile-content{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
